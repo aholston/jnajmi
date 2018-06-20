@@ -1,0 +1,270 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+	color: #fff;
+	font-size: 24px;
+
+
+}
+
+		/* THESE STYLES APPLY TO EACH INDIVIDUAL PAGE */
+
+#container {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	/* background: linear-gradient(#000000, #171616); */
+	background: #000;
+}
+body {
+	margin: 0;
+}
+
+#header {
+	width: 1000px;
+	background: #000;
+	margin: 0 auto;
+}
+#header img {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#bg_color {
+	background: linear-gradient(#000000, #757373);
+}
+
+#navigation {
+	background: #dba328;
+
+}
+
+#navigation ul {
+	display: inline-block;
+	width: 1000px;
+	text-align: center;
+	border: solid 1px #000;
+
+}
+
+#navigation ul li {
+	display: inline;
+	margin: 10px;
+
+}
+
+#navigation a {
+	text-decoration: none;
+	color: #000;
+	font-size: 24px;
+
+}
+
+#navigation a:hover {
+	color: #f3c665;
+	text-decoration: underline;
+}
+
+#main-content {
+	/* background: linear-gradient(#000000, #232222); */
+	margin: 0 auto;
+	width: 1000px;
+	margin-bottom: 15px;
+}
+
+
+#main-content h2 {
+	text-align: center;
+	color: #fff;
+}
+
+#main-content p {
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+	color: #fff;
+	overflow: auto;
+}
+
+#footer {
+	/*background: linear-gradient(#000000, #232222);*/
+	color: white;
+	width: 1000px;
+	margin: 0 auto;
+	border-top: 1px solid #dba328;
+
+
+
+}
+
+#footer a {
+	color: #dba328;
+	margin: 15px;
+	text-decoration: none;
+
+}
+
+#footer h2 {
+	padding: 10px;
+	display: inline;
+}
+#footer p {
+	display: inline;
+	margin: 10px;
+	font-size: 14px;
+}
+
+  /* THESE STYLES ARE SPECIFIC TO INDEX.HTML */
+
+#slider {
+	text-align: center;
+	width: 1000px;
+	height: 400px;
+	overflow: hidden;
+}
+#slider .slides {
+	display: block;
+	width: 6000px;
+	height: 400px;
+	margin: 0;
+	padding: 0px;
+}
+
+#slider .slide {
+	float: left;
+	list-style-type: none;
+	width: 1000px;
+	height: 400px;
+
+}
+
+
+
+
+	/* THESE STYLES ARE SPECIFIC TO ABOUT.HTML */
+
+.about_img {
+	vertical-align: top;
+	padding: 20px;
+}
+
+#about {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+}
+#about h1 {
+	display: inline;
+	color: #fff;
+	width: 200px;
+	text-align: left;
+}
+
+#about p {
+	display: inline-block;
+}
+
+#index_form {
+	color: white;
+	font-size: 14px;
+	/* padding-right: 400px; */
+	width: 0 auto;
+	background: 000;
+	font-size: 10px;
+	padding: right;
+}
+
+#index_form p {
+	font-size: 10px;
+	text-align: left;
+}
+
+
+
+
+		/* THESE STYLES ARE SPECIFIC TO CONNECTIONS.HTML */
+
+	h1 {
+		text-align: center;
+		text-decoration: underline;
+		color: #fff;
+		font-size: 28px;
+		}
+
+	.connect_main {
+		overflow: auto;
+	}
+
+.connect_main img {
+	display: block;
+	max-width: 300px;
+	padding: 10px;
+}
+
+#col-1 {
+	display: inline-block;
+	text-align: left;
+	width: 200px;
+	height: 500px;
+	vertical-align: top;
+	margin-right: 100px;
+}
+
+#col-2 {
+	display: inline-block;
+	width: 200px;
+	height: 500px;
+	margin: 0 50px;
+	vertical-align: top;
+	text-align: center;
+}
+
+#col-3 {
+	display: inline-block;
+	width: 200px;
+	height: 500px;
+	margin-left: 100px;
+	vertical-align: top;
+	text-align: center;
+}
+
+	/* THESE STYLES ARE SPECIFIC TO CLIENTS.HTML */
+
+	.house_img {
+		width: 100%;
+	}
+
+		/* UNCOMMENT WHEN API IS MADE  */
+	/* #sched_form {
+		display: inline-block;
+		vertical-align: top;
+		max-width: 200px;
+	}
+
+
+.form_submit {
+		width: 250px;
+		background: linear-gradient(#dba328, #f2c35b);
+		border: 1px solid black;
+		-webkit-box-shadow: 2px 4px 35px 0px #DBA328;
+		box-shadow: 2px 4px 35px 0px #DBA328;
+	}
+
+	.form_submit:hover {
+		background: linear-gradient(#f2c35b, #dba328);
+		cursor: pointer;
+	}
+
+	#sched_form p {
+		display: inline;
+		color: #dba328;
+		margin-left: 5px;
+	}
+
+	.form_input {
+		display: block;
+		margin: 5px;
+	} */
